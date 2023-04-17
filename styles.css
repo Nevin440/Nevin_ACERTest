@@ -1,6 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+nav {
+	height: 6vw;
+	border: 1px solid black;
+	text-decoration:none;
+}
 nav div{
 	font-family: 'Poppins', sans-serif;
 	display:inline-block;
+	text-decoration:none;
+	color: black;
+}
+
+#demonstrate_bg {
+	background-image: url("./resources/marker_board.jpg");
+	height: 50vw;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 1px solid black;
+}
+
+#demonstrate_content {
+	padding: 10% 10%;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	font-size: 52px;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: normal;
+}
+.desc{
+	font-size: 20px;
+}
+
+.button{
+	border-radius: 65px;
+	padding: 15px 15px;
+	color: white;
+	text-decoration:none;
+	font-family: Arial;
+	background-color: #04726D;
 }
