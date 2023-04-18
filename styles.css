@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 nav {
-	height: 6vw;
-	border: 1px solid black;
+	height: 95px;
+	width: 1440px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 10px -10px rgba(0,0,0,0.2);
+}
+
+#logoHead a{
+	padding: 0px 100px;
+	text-align: left center;
+	font-size: 12px;
 	text-decoration:none;
 }
 nav div{
@@ -12,17 +20,45 @@ nav div{
 	color: black;
 }
 
+#navLinks a{
+	text-decoration: none;
+	color: #2F2F2F;
+	text-align: left center;
+	padding: 0px 20px;
+}
+
 #demonstrate_bg {
 	background-image: url("./resources/marker_board.jpg");
-	height: 50vw;
+	height: 1024px;
+	width: 1440px;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	border: 1px solid black;
+	background-size: cover;
 }
 
 #demonstrate_content {
 	padding: 10% 10%;
 	font-family: 'Poppins', sans-serif;
+}
+
+#available468{
+	height: 512px;
+	width: 1440px;
+	background: #09257A;
+}
+
+#rewarding{
+	background: linear-gradient(to right, #FFFFFF 15%, transparent), url("./resources/smile.png");
+	height: 1024px;
+	width: 1440px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#theChallenge{
+	background-image: url("./resources/green.jpg");
+	height: 1177px;
+	width: 1440px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 h1{
@@ -34,7 +70,7 @@ h4 {
 	font-size: 18px;
 	font-weight: normal;
 }
-.desc{
+p.lead{
 	font-size: 20px;
 }
 
