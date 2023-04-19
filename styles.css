@@ -27,7 +27,7 @@ nav div{
 	padding: 0px 20px;
 }
 
-#demonstrate_bg {
+#demonstrateBg {
 	background-image: url("./resources/marker_board.jpg");
 	height: 1024px;
 	width: 1440px;
@@ -35,7 +35,7 @@ nav div{
 	background-size: cover;
 }
 
-#demonstrate_content {
+#demonstrateContent {
 	padding: 10% 10%;
 	font-family: 'Poppins', sans-serif;
 }
@@ -46,21 +46,45 @@ nav div{
 	background: #09257A;
 }
 
-#rewarding{
+#availableContent{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	padding: 10% 10%;
+	text-align: cemter;
+}
+
+#availableContent td{
+	border: 1px solid white;
+	padding: 10px 50px;
+}
+
+#rewardingBg{
 	background: linear-gradient(to right, #FFFFFF 15%, transparent), url("./resources/smile.png");
 	height: 1024px;
 	width: 1440px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#theChallenge{
+#challengeBg{
 	background-image: url("./resources/green.jpg");
 	height: 1177px;
 	width: 1440px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#challengeContent{
+}
 
+#contactUs{
+	background-color:#F5F5F5;
+	height:413px;
+	width: 1440px;
+}
+
+footer{
+	background-color:white;
+	height: 72px;
+}
 h1{
 	font-size: 52px;
 	font-weight: normal;
@@ -70,15 +94,27 @@ h4 {
 	font-size: 18px;
 	font-weight: normal;
 }
+
 p.lead{
 	font-size: 20px;
+	inline-size: 30vw;
+	overflow-wrap: break-word;
 }
 
-.button{
+.greenButton{
 	border-radius: 65px;
 	padding: 15px 15px;
 	color: white;
 	text-decoration:none;
 	font-family: Arial;
 	background-color: #04726D;
+}
+
+.blueBtn{
+	border-radius: 65px;
+	padding: 5px 13px;
+	color: white;
+	text-decoration:none;
+	font-family: 'Poppins', sans-serif;
+	background-color: #09257A;
 }
