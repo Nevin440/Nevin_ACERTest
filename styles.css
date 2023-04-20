@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 nav {
 	height: 95px;
-	width: 1440px;
+	/*width: 1440px;*/
 	background-color: #FFFFFF;
 	box-shadow: 0px 0px 10px -10px rgba(0,0,0,0.2);
 }
@@ -30,7 +30,7 @@ nav div{
 #demonstrateBg {
 	background-image: url("./resources/marker_board.jpg");
 	height: 1024px;
-	width: 1440px;
+	/*width: 1440px;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -42,7 +42,7 @@ nav div{
 
 #available468{
 	height: 512px;
-	width: 1440px;
+	/*width: 1440px;*/
 	background: #09257A;
 }
 
@@ -61,14 +61,14 @@ nav div{
 #rewardingBg{
 	background: linear-gradient(to right, #FFFFFF 15%, transparent), url("./resources/smile.png");
 	height: 1024px;
-	width: 1440px;
+	/*width: 1440px;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #challengeBg{
 	background-image: url("./resources/green.jpg");
 	height: 1177px;
-	width: 1440px;
+	/*width: 1440px;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -78,7 +78,7 @@ nav div{
 #contactUs{
 	background-color:#F5F5F5;
 	height:413px;
-	width: 1440px;
+	/*width: 1440px;*/
 }
 
 footer{
