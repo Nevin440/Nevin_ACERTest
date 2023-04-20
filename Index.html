@@ -57,81 +57,88 @@
 <div id="challengeBg">
 <div id="challengeContent">
 <h1> The 2023 challenge </h1>
-<p class="lead">Participation in the challenge is open to all registered Australian schools, with students required to be enrolled in a participating school to take part. </p>
+<p>Participation in the challenge is open to all registered Australian schools, with students required to be enrolled in a participating school to take part.</p>
 <table>
 <tr>
 	<td>
 	<img src="./resources/registration.svg"></img> <br>
 	<p class="lead">Registration</p>
-	<p>On the XX of April 2021, registrations for the challenge will become available, with each subject costing XX per student to participate.</p>
+	<p id="pChallenge">On the XX of April 2021, registrations for the challenge will become available, with each subject costing XX per student to participate.</p>
 	</td>
 	
 	<td>
 	<img src="./resources/preparation.svg"></img> <br>
 	<p class="lead">Preparation</p>
-	<p>After registering, simply add participating students to your ACER account, either new or existing, and allocate the challenge.</p>
+	<p id="pChallenge">After registering, simply add participating students to your ACER account, either new or existing, and allocate the challenge.</p>
 	</td>
 	
 	<td>
 	<img src="./resources/administration.svg"></img> <br>
 	<p class="lead">Administration</p>
-	<p>Using ACER's online assessment and reporting platform, the challenge is administered digitally, with each subject expected to take around XX minutes for students to finish.</p>
+	<p id="pChallenge">Using ACER's online assessment and reporting platform, the challenge is administered digitally, with each subject expected to take around XX minutes for students to finish.</p>
 </tr>
 </table>
 <hr style="width:60vw; align:center;">
 <h1> Competition dates </h1>
-<table>
+<table id="dateTable">
 	<tr>
-		<td> <img src="./resources/Maths.svg" alt="Mathematics"/> <br>
-			<p class="dates">Monday, 16 August </p> <br>
+		<td> <img src="./resources/Maths.svg" alt="Mathematics"/>
+			<p class="dates">Monday, 16 August </p>
 			<p> Mathematics </p>
 		</td>
-		<td> <img src="./resources/Science.svg" alt="Science"/> <br>
-			<p class="dates">Tuesday, 17 August </p> <br>
+		<td> <img src="./resources/Science.svg" alt="Science"/>
+			<p class="dates">Tuesday, 17 August </p>
 			<p> Science </p></td>
-		<td> <img src="./resources/Reading.svg" alt="Reading"/> <br>
-		<p class="dates">Wednesday, 18 August </p> <br>
+		<td> <img src="./resources/Reading.svg" alt="Reading"/>
+		<p class="dates">Wednesday, 18 August </p>
 		<p> Reading </p>
 		</td>
 	</tr>
 </table>
 </div>
 </div>
-<div id="discover">
-<table>
-	<tr><th colspan="4">Discover the latest from ACER</th></tr>
+<div id="discoverContent">
+<table id="discoverTable">
+	<tr><th colspan="4"><h2>Discover the latest from ACER</h2></th></tr>
 	<tr>
-		<td> <img src="./resources/Teachingattable.png"/><br>
-		<p> 9 August 2022 </p><p>Higher education</p><br>
-		<h3>Investing in teacher development: Building an evidence base in Lao PDR</h3>
+		<td><a href="#"><img src="./resources/Teachingattable.png"/><br>
+		<div class="discText"><p class="discDate"> 9 August 2022 </p><div class="higherEd"><p>Higher education</p></div><br>
+		<h5>Investing in teacher development: Building an evidence base in Lao PDR</h5>
+		</div>
+		</a>
 		</td>
-	</tr>
-	<tr>
-		<td> <img src="./resources/Handsup.png"/><br>
-		<p> 30 August 2022 </p><p>Higher education</p><br>
-		<h3>Snapshot of Australian teachers and principals</h3>
+
+		<td><a href="#"><img src="./resources/Handsup.png"/><br>
+		<div class="discText"><p class="discDate"> 30 August 2022 </p><div class="higherEd"><p>Higher education</p></div><br>
+		<h5>Snapshot of Australian teachers and principals</h5>
+		</div>
+		</a>
 		</td>
-	</tr>
-	<tr>
-		<td> <img src="./resources/Lab.png"/><br>
-		<p> 5 December 2022 </p><p>Higher education</p><br>
-		<h3>Building the evidence base for educational quality in the Pacific</h3>
+		
+		<td><a href="#"><img src="./resources/Lab.png"/><br>
+		<div class="discText"><p class="discDate"> 5 December 2022 </p><div class="higherEd"><p>Higher education</p></div><br>
+		<h5>Building the evidence base for educational quality in the Pacific</h5>
+		</div>
+		</a>
 		</td>
-	</tr>
-	<tr>
-		<td> <img src="./resources/Globeinhand.png"/><br>
-		<p> 8 November 2022 </p><p>Higher education</p><br>
-		<h3>A knowledge portal on learning assessments for South Asia</h3>
+
+		<td><a href="#"><img src="./resources/Globeinhand.png"/><br>
+		<div class="discText"><p class="discDate"> 8 November 2022 </p><div class="higherEd"><p>Higher education</p></div><br>
+		<h5>A knowledge portal on learning assessments for South Asia</h5>
+		</div>
+		</a>
 		</td>
 	</tr>
 </table>
 </div>
-<div id="contactUs">
-<h2> Contact us to find out more </h2>
+<div id="contactBg">
+<div id="contactContent">
+<h3> Contact us to find out more </h3>
 <p class="small"> One of our friendly staff members will contact you within 24 hours </p>
 <form>
 	<input type="text" id="name" name="fullName" placeholder="My name">
 	<input type="email" id="email" name="Email" placeholder="Email address">
+	<br>
 	<input type="text" id="school" name="schoolName" placeholder="School name">
 	<select class="countryDropdown" id="country" name="Country">
 		<option value="" disabled selected>Country</option>
@@ -388,16 +395,14 @@
 		<option value="Zambia">Zambia</option>
 		<option value="Zimbabwe">Zimbabwe</option>
 	</select>
-<input type="submit" class="greenButton" value="Submit">
+<br/>
+<div id="subBtn"><input type="submit" class="greenButton" value="Send"></div></div>
 </form>
+</div>
 </div>
 </body>
 <footer>
-<div>
-<a href="#"><img id="navLogo" src="./resources/ACER logo.svg" alt="ACER Logo"/></a>
-	<div>
-	<p>© 2023 ACER</p>
-	</div>
-</div>
+<div id="footLogo"><a href="#"><img src="./resources/ACER logo_inverted.svg" alt="ACER Logo"/></a></div>
+<div id="copyright"><p>© 2023 ACER</p></div>
 </footer>
 </html>

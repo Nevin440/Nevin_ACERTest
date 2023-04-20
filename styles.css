@@ -74,7 +74,7 @@ nav div{
 }
 
 #rewardingContent{
-	padding: 512px 0px;
+	padding: 384px 10%;
 	font-family: 'Poppins', sans-serif;
 }
 #challengeBg{
@@ -85,18 +85,97 @@ nav div{
 	background-size: cover;
 }
 #challengeContent{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	height: 1177px;
+	text-align: center;
+	padding: 5% 0%;
 }
 
-#contactUs{
+#challengeContent table{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	margin: 0 auto;
+	padding: 2vh 0vw;
+}
+
+#challengeContent td{
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px 100px;
+	max-width: 20vw;
+}
+
+#discoverContent{
+	font-family: 'Poppins', sans-serif;
+
+}
+#discoverContent a{
+text-decoration: none;
+color: black;
+}
+
+#discoverContent table{
+		margin: 146px auto;
+		border-spacing: 50px;
+}
+p.discDate{
+	font-size: 9px;
+	display:inline;
+}
+
+div.discText{
+	padding: 15px 10px;
+}
+div.higherEd{
+	font-size: 10px;
+	font-weight: bold;
+	width:104px;
+	height:20px;
+	vertical-align: middle;
+	background-color:#F5F5F5;
+	
+}
+#discoverTable td {
+	width: 263px;
+	height: 290px;
+	overflow-wrap: break-word;
+	box-shadow: 0px 0px 5px black;
+	border-radius: 5px;
+}
+
+#dateTable img{
+	width: 56.43px;
+}
+#contactBg{
 	background-color:#F5F5F5;
 	height:413px;
-	/*width: 1440px;*/
+}
+#contactContent{
+padding: 100px 20vw;
+font-family: 'Roboto', sans-serif;
 }
 
 footer{
-	background-color:white;
+	background-color:#2F2F2F;
 	height: 72px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align:left;
 }
+#footLogo{
+padding-top:20px;
+padding-left: 100px;
+display: block;
+display: inline-block;
+}
+
+#copyright{
+display: inline-block;
+padding-top:20px;
+padding-left: 75vw;
+}
+
 h1{
 	font-size: 52px;
 	font-weight: normal;
@@ -112,12 +191,30 @@ h4 {
 	font-size: 18px;
 	font-weight: normal;
 }
+h5 {
+	font-size: 16px;
+}
 
+#pChallenge{
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+}
 p.lead{
 	font-size: 20px;
 	font-weight: normal;
 	inline-size: 20vw;
 	overflow-wrap: break-word;
+}
+
+p.dates{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+p.small{
+		font-size: 14px;
+		font-family: 'Roboto', sans-serif;
 }
 
 .greenButton{
@@ -136,4 +233,31 @@ p.lead{
 	text-decoration:none;
 	font-family: 'Poppins', sans-serif;
 	background-color: #09257A;
+}
+
+input[type=text],input[type=email]{
+	width: 360px;
+	height:40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+input[type=submit]{
+	width:80px;
+	height:30px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 65px;
+	padding: 0px 5px;
+	cursor: pointer;
+}
+#subBtn{
+	padding: 10px 0px;
+}
+select {
+	width: 368px;
+	height:46px;
+	font-family: 'Poppins', sans-serif;
 }
